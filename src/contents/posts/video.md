@@ -3,7 +3,7 @@ title: перенос
 published: 2022-02-23
 description: ага
 tags: [важное]
-category: Examples
+category: новости
 licenseName: Unlicensed
 draft: false
 ---
