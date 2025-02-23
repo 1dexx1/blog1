@@ -33,7 +33,6 @@ export default defineConfig({
       globalInstance: true,
     }),
     sitemap(),
-    pagefind(),
   ],
   markdown: {
     shikiConfig: {
