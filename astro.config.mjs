@@ -14,8 +14,6 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
 import DexxConfig from "./dexx.config";
 
-import pagefind from "astro-pagefind";
-
 // https://astro.build/config
 export default defineConfig({
   site: DexxConfig.site,
