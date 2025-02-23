@@ -6,7 +6,3 @@
 
 
 ссылки моих друзей
-
-## nelsoni
-
-[discord](https://discord.com/users/802521064059305984)

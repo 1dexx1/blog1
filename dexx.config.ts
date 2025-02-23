@@ -25,6 +25,10 @@ const DexxConfig: Configuration = {
       nameKey: I18nKeys.nav_bar_about,
       href: "/about",
     },
+    {
+      nameKey: I18nKeys.nav_bar_friends,
+      href: "/friends",
+    },
   ],
 
   username: "polaarity",

@@ -9,6 +9,7 @@ export const ru: Translation = {
   [key.nav_bar_home]: "главная",
   [key.nav_bar_archive]: "архив",
   [key.nav_bar_about]: "о себе",
+  [key.nav_bar_friends]: "друзья",
   [key.nav_bar_github]: "гитхаб",
   [key.nav_bar_search_placeholder]: "поиск",
 
