@@ -1,16 +1,16 @@
 import I18nKeys from "./src/locales/keys";
 import type { Configuration } from "./src/types/config";
 
-const YukinaConfig: Configuration = {
-  title: "Yukina",
-  subTitle: "Yukina Template Demo Site",
-  brandTitle: "Yukina",
+const DexxConfig: Configuration = {
+  title: "polar",
+  subTitle: "polar blog",
+  brandTitle: "polaar",
 
-  description: "Demo Site",
+  description: "something",
 
   site: "https://yukina-blog.vercel.app",
 
-  locale: "en", // set for website language and date format
+  locale: "ru", // set for website language and date format
 
   navigators: [
     {
@@ -25,27 +25,27 @@ const YukinaConfig: Configuration = {
       nameKey: I18nKeys.nav_bar_about,
       href: "/about",
     },
-    {
-      nameKey: I18nKeys.nav_bar_github,
-      href: "https://github.com/WhitePaper233/yukina",
-    },
   ],
 
-  username: "WhitePaper 白芷",
-  sign: "Ad Astra Per Aspera.",
+  username: "polaarity",
+  sign: "'tech otakus save the world!'",
   avatarUrl: "https://s2.loli.net/2025/01/25/FPpTrQSezM8ivbl.webp",
   socialLinks: [
     {
-      icon: "line-md:github-loop",
-      link: "https://github.com/WhitePaper233",
+      icon: "mingcute:discord-fill",
+      link: "https://discord.com/users/999589862158114848",
     },
     {
-      icon: "mingcute:bilibili-line",
-      link: "https://space.bilibili.com/22433608",
+      icon: "mingcute:github-fill",
+      link: "https://github.com/1dexx1",
     },
     {
-      icon: "mingcute:netease-music-line",
-      link: "https://music.163.com/#/user/home?id=125291648",
+      icon: "mingcute:link-fill",
+      link: "https://boosty.to/1dexx1",
+    },
+    {
+      icon: "mingcute:link-fill",
+      link: "https://steamcommunity.com/id/1dexx1",
     },
   ],
   maxSidebarCategoryChip: 6, // It is recommended to set it to a common multiple of 2 and 3
@@ -75,4 +75,4 @@ const YukinaConfig: Configuration = {
   bannerStyle: "LOOP", // 'loop' | 'static' | 'hidden'
 };
 
-export default YukinaConfig;
+export default DexxConfig;

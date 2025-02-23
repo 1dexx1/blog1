@@ -1,7 +1,7 @@
-import YukinaConfig from "../../yukina.config";
+import DexxConfig from "../../dexx.config";
 import type I18nKeys from "./keys";
 import { en } from "./languages/en";
-import { zh_CN } from "./languages/zh_cn";
+import { ru } from "./languages/ru";
 
 export type Translation = {
   [K in I18nKeys]: string;
@@ -9,7 +9,7 @@ export type Translation = {
 
 const map: { [key: string]: Translation } = {
   en: en,
-  "zh-cn": zh_CN,
+  ru: ru,
 };
 
 export function getTranslation(lang: string): Translation {
@@ -17,7 +17,7 @@ export function getTranslation(lang: string): Translation {
 }
 
 export function i18n(key: I18nKeys, ...interpolations: string[]): string {
-  const lang = YukinaConfig.locale;
+  const lang = DexxConfig.locale;
   let translation = getTranslation(lang)[key];
   interpolations.forEach((interpolation) => {
     translation = translation.replace("{{}}", interpolation);

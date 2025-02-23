@@ -1,5 +1,12 @@
-# Special thanks to:
+# о себе
 
-- [Hexo Shoka theme](https://github.com/amehime/hexo-theme-shoka) for providing design inspiration
+мне 13 лет, я делаю что-то на GLua, пробовал просто луа, и luau, живу в украине
 
-- [Astro Fuwari template](https://github.com/saicaca/fuwari) for providing the main design concept and part of the implementation
+да, у меня 10 ников, и че(polar/polarity/pulsar/puls/polxr/polxrity/pulsrr/pls/pol/dexx)
+
+
+ссылки моих друзей
+
+## nelsoni
+
+[discord](https://discord.com/users/802521064059305984)
